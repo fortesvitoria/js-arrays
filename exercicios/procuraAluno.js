@@ -9,6 +9,7 @@ function exibeNomeENota(aluno) {
     if (listaAlunosEMedias[0].includes(aluno)) {
         console.log (`${aluno} está cadastrado`);
 
+        //pra saber a media se busca pelo indice
         const indice = listaAlunosEMedias[0].indexOf(aluno);
         console.log(indice);
 
